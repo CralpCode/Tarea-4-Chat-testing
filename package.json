@@ -1,0 +1,28 @@
+{
+  "name": "tarea-4-chat-testing",
+  "version": "1.0.0",
+  "description": "Chat Testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CralpCode/Tarea-4-Chat-testing.git"
+  },
+  "author": "CralpCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CralpCode/Tarea-4-Chat-testing/issues"
+  },
+  "homepage": "https://github.com/CralpCode/Tarea-4-Chat-testing#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
